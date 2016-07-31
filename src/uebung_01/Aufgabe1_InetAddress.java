@@ -15,12 +15,12 @@ public class Aufgabe1_InetAddress {
 	
 	public static void main(String[] args) throws UnknownHostException, SocketException, MalformedURLException {
 //		a)
-//		outputLocalInetAddressInformation();
-//		outputInterfaceInformation();
-//		Enumeration<NetworkInterface> nets = NetworkInterface.getNetworkInterfaces();
-//		for(NetworkInterface net : Collections.list(nets)){
-//			outputInterfaceAddresses(net.getName());
-//		}
+		outputLocalInetAddressInformation();
+		outputInterfaceInformation();
+		Enumeration<NetworkInterface> nets = NetworkInterface.getNetworkInterfaces();
+		for(NetworkInterface net : Collections.list(nets)){
+			outputInterfaceAddresses(net.getName());
+		}
 //		b)
 //		getIPofURL("http://sidv0012.hsr.ch");
 //		c)
